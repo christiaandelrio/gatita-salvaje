@@ -1,1 +1,1 @@
-# reposorio
+# repositorio
