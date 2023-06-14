@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pregunta 2</title>
+		<script src="./main.js" defer></script>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="container " class="p-4">
+			<p>Introduce un número del 1 al 20</p>
+			<input
+				class="form-control mb-4 w-25"
+				type="number"
+				id="numero"
+				placeholder="Introduce un número del 1 al 20"
+			/>
+			<div class="mb-2">
+				<button class="btn btn-primary" id="enviar">Enviar</button>
+				<button class="btn btn-success" id="cambioColor">
+					Color términos
+				</button>
+				<button class="btn btn-danger" id="resetear">Borrar</button>
+			</div>
+			<div id="salidas"></div>
+		</div>
+	</body>
+</html>
